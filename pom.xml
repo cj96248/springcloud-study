@@ -11,6 +11,7 @@
         <module>microservice-common</module>
         <module>microservice-provider</module>
         <module>microservice-consumer</module>
+        <module>microservice-eureka-server</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -33,6 +34,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

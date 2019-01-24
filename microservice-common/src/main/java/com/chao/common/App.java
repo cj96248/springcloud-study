@@ -1,4 +1,4 @@
-package com.chao;
+package com.chao.common;
 
 /**
  * Hello world!

@@ -27,4 +27,5 @@ public class DepartmentController {
     public boolean save(Department department){
         return departmentService.add(department);
     }
+
 }
