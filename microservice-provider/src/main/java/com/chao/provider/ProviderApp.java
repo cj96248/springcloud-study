@@ -14,7 +14,7 @@ public class ProviderApp
 {
     public static void main( String[] args )
     {
-        SpringApplication.run(ProviderApp.class);
+        SpringApplication.run(ProviderApp.class, args);
         System.out.println( "Hello World!" );
     }
 }

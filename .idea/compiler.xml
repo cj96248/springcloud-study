@@ -8,15 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice-common" />
         <module name="microservice-consumer" />
+        <module name="microservice-eureka-server" />
         <module name="microservice-provider" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="microservice-common" options="-parameters" />
-      <module name="microservice-consumer" options="-parameters" />
-      <module name="microservice-provider" options="-parameters" />
+      <module name="microservice-common" options="" />
+      <module name="microservice-consumer" options="" />
+      <module name="microservice-eureka-server" options="" />
+      <module name="microservice-provider" options="" />
       <module name="springcloud-study" options="-parameters" />
     </option>
   </component>
