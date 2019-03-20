@@ -10,6 +10,12 @@
         <module name="microservice-consumer" />
         <module name="microservice-eureka-server" />
         <module name="microservice-provider" />
+        <module name="shop-common" />
+        <module name="shop-config" />
+        <module name="shop-gateway" />
+        <module name="shop-order" />
+        <module name="shop-product" />
+        <module name="shop-user" />
       </profile>
     </annotationProcessing>
   </component>
