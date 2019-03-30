@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: shop-user
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud_shop?characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+server:
+  port: 8201
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+info:
+  app.name: 用户微服务
+  app.version: @project.version@
